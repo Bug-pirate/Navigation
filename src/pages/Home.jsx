@@ -3,6 +3,8 @@ import Navbar from '../components/Navbar.jsx';
 import './Home.css';
 import Map from "../components/Map.jsx";
 import Input from "../components/Input.jsx"
+import Footer from "../components/Footer.jsx";
+import ShortestPath from "../components/ShortestPath.jsx";
 
 function Home() {
   return (
@@ -14,6 +16,9 @@ function Home() {
       </p>
       <Input />
       <Map />
+      <Footer/>
+      
+   
     </div>
   );
 }
