@@ -1,4 +1,4 @@
-.my{
+.gradient {
   background:
   radial-gradient(circle at top left, #b2c8eb 20%, transparent 60%),
   radial-gradient(circle at top right, #eaa0db 20%, transparent 60%);

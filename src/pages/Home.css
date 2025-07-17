@@ -1,0 +1,20 @@
+.home-page {
+
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  align-items: center;
+}
+
+.home-page h1 {
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  color: black;
+  font-size: 80px;
+}
+
+.home-page p {
+    padding: 0 200px;
+    font-size: 27px;
+}
