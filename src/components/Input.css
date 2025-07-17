@@ -1,0 +1,19 @@
+
+.input {
+    width: 100vw;
+    background-color: red;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 30px;
+}
+
+.input-field input {
+    padding: 20px 70px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+}

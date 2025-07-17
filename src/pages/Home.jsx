@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from '../components/Navbar.jsx';
 import './Home.css';
+import Input from '../components/Input.jsx'
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
         dolore nulla minus consectetur quisquam natus corporis nemo consequuntur
         architecto error, eum, doloremque voluptate eaque suscipit.
       </p>
+      <Input />
     </div>
   );
 }
