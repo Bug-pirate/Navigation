@@ -1,19 +1,29 @@
-
+/* Full width section for the input area */
 .input {
-    width: 100vw;
-    background-color: red;
+  width: 100vw;
+  margin-top: 70px;
 }
 
+/* Container that centers the input elements */
 .input-container {
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    padding: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 30px;
 }
 
-.input-field input {
-    padding: 20px 70px;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 20px;
+/* Styling the input fields like buttons */
+.input-field select {
+  width: 250px;            /* Fixed width */
+  height: 50px;            /* Fixed height */
+  padding: 0 20px;         /* Left and right padding only */
+  border-radius: 20px;
+  text-align: center;
+  font-size: 16px;         /* You can adjust this size as needed */
+  appearance: none;        /* Removes default browser styles */
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  transition: all 0.3s ease;
 }
+
