@@ -2,14 +2,15 @@
 
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
   align-items: center;
 }
 
 .home-page h1 {
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+   padding-top: 50px;
+   padding-bottom: 20px;
   color: black;
   font-size: 80px;
 }

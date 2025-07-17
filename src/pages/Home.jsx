@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from '../components/Navbar.jsx';
 import './Home.css';
+import Map from "../components/Map.jsx";
 
 function Home() {
   return (
@@ -8,14 +9,10 @@ function Home() {
       <Navbar />
       <h1>Welcome to Navigation</h1>
       <p>
-        we Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum
-        dolores illum corporis sequi atque exercitationem quas nobis,
-        perferendis nemo rerum ratione, soluta, porro molestias tempora. Eos
-        maxime quis ea quibusdam. aut earum hic quae nesciunt per labore
-        exercitationem non nam voluptate consequatur accusantium. Aperiam, iste
-        dolore nulla minus consectetur quisquam natus corporis nemo consequuntur
-        architecto error, eum, doloremque voluptate eaque suscipit.
+      Discover the fastest route between any two points with our intelligent pathfinding system. Powered by Dijkstra’s Algorithm, our platform calculates the most efficient and accurate path for your journey in real-time. Whether you're planning a trip or exploring new routes, our system ensures you reach your destination with ease.
       </p>
+
+      <Map/>
     </div>
   );
 }
