@@ -1,13 +1,15 @@
 
 .input {
     width: 100vw;
-    background-color: red;
+    margin-top: 50px;
+    
 }
 
 .input-container {
     display: flex;
     justify-content: center;
     gap: 100px;
+    
     padding: 30px;
 }
 
@@ -15,5 +17,8 @@
     padding: 20px 70px;
     border-radius: 20px;
     text-align: center;
+    background-color: #2222;
+    color: black;
+    border: 2px solid black;
     font-size: 20px;
 }
