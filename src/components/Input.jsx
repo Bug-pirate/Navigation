@@ -8,7 +8,7 @@ const Input = () => {
 
     useEffect(() => {
         // Replace with your actual backend API endpoint
-        fetch('https://your-backend-api.com/cities')
+        fetch('https://localhost/3000.com/cities')
             .then(res => res.json())
             .then(data => setCities(data))
             .catch(err => console.error('Error fetching cities:', err));
