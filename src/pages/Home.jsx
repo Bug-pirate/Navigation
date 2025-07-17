@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from '../components/Navbar.jsx'
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
         alignItems: "center",
       }}
     >
+      < Navbar />
       <h1 style={{ color: "black",  fontSize:'80px'
        }}>Welcome to Navigation</h1>
       <p style={{paddingLeft:'100px', paddingRight:'100px'}}>
